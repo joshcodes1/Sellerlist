@@ -3,9 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container{
-    
-}
 hr{
     background-color: red;
 }
@@ -94,7 +91,6 @@ hr{
     color: white;
     position: relative;
     font-family: 'Righteous';
-    /* font-weight: bolder; */
     font-size: 25px;
     top: 30%;
     bottom: 50%;
@@ -116,6 +112,7 @@ hr{
 }
 .input{
     padding: 30px 0 0 0;
+    position: relative;
 }
 .input input{
     width: 50%;
@@ -127,9 +124,28 @@ hr{
 input::placeholder{
     font-size: 20px;
 }
-.input .fa-search{
-    
+/* .input .fa-search{  
     color: grey;
-    
+    position: relative;
+    fill: blue;
+    color: aqua;
 }
+.input .fa-arrow-circle-right{
+    position:fixed;
+    right:100px;
 
+    border-radius: 50px;
+    color: aqua;
+} */
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.social-icons a{
+    text-decoration: none;
+}
+.social-icons img{
+    height: 40px;
+    width: 40px;
+}
