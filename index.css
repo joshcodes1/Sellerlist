@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    
+}
+hr{
+    background-color: red;
+}
+.title{
+    padding:20px 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.logo h2{
+    font-family: 'Agbalumo';
+}
+.title .login-signup-btn button{
+    margin: 0 20px;
+    width: 100px;
+    background-color: transparent;
+    padding: 10px 0;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
+}
+#signup-btn{
+    border: 1px solid black;
+}
+#login-btn{
+    background: black;
+    color: white;
+} 
+ /* end of title-bar  */
+
+
+ .nav-bar{
+    display: flex;
+    align-items: center;
+    /* background: olive; */
+    padding: 12px 10px;
+    justify-content: space-between;
+ }
+ .nav-links{
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+ }
+ .nav-links li{
+    list-style: none;
+ }
+ .nav-links li a{
+    font-family: 'Garamond';
+    font-size: 17px;
+    text-decoration: none;
+    padding: 0 25px;
+    color: black;
+ }
+ .nav-icons{
+    align-items: center;
+
+ }
+ .nav-bar .nav-icons i{
+    margin: 0 20px;
+    cursor: pointer;
+    font-size: 30px;
+ }
+ #sell-btn{
+    margin: 0 20px;
+    width: 100px;
+    background-color: transparent;
+    padding: 10px 0;
+    border-radius: 25px;
+    border: 2px solid skyblue;
+    cursor: pointer;
+}
+.intro-banner{
+    height: 40vh;
+    margin:  30px;
+    padding: 20px 30px;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./images/marcus-loke-xXJ6utyoSw0-unsplash.jpg');
+    background-position: center;
+}
+.banner-text{
+    align-items: center;
+    color: white;
+    position: relative;
+    font-family: 'Righteous';
+    /* font-weight: bolder; */
+    font-size: 25px;
+    top: 30%;
+    bottom: 50%;
+}
+.banner-links{
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;position: relative;
+    top: 30%;
+    bottom: 50%;
+}
+.banner-links button{
+    margin: 0 20px;
+    background-color: rgba(245, 245, 245, 0.774);
+    padding: 10px ;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+.input{
+    padding: 30px 0 0 0;
+}
+.input input{
+    width: 50%;
+    padding-left: 50px;
+    border-radius: 25px;
+    border: none;
+    height: 50px;
+}
+input::placeholder{
+    font-size: 20px;
+}
+.input .fa-search{
+    
+    color: grey;
+    
+}
+
