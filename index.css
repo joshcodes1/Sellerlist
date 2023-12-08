@@ -76,7 +76,7 @@ hr{
     cursor: pointer;
 }
 .intro-banner{
-    height: 40vh;
+    height: 45vh;
     margin:  30px;
     padding: 20px 30px;
     text-align: center;
@@ -150,6 +150,20 @@ input::placeholder{
     margin-top:25px ;
     margin-bottom:15px ;
 }
+.products-details{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.product-likes-icon{
+    display: flex;
+    justify-content: space-between;
+}
+.product-likes-icon h3{
+    margin-right: 15px;
+}
+
 /* .input .fa-search{  
     color: grey;
     position: relative;
