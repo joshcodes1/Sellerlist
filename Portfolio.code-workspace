@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../Portfolio"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../Rad-Plants"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Sellerlist"
+	}
+}
