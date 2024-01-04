@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      />
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.ccs">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com"     crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,6 +22,25 @@
             <div class="logo">
                 <h2>Sellerlist</h2>
             </div>
+
+        <button id="opn-btn">
+          <i onclick="opn()" class="fa-solid fa-2x fa-chevron-left" ></i>
+        </button>
+        
+        <div class="nav_links">
+          <button id="x-btn">
+            <i onclick="cls()" class="fa-solid fa-2x fa-chevron-right"></i>
+          </button>
+
+          <li><a href="#projects">Cart</a></li>
+          <li><a href="#projects">Store</a></li>
+          <li><a href="#projects">Sell Items</a></li>
+          <li><a href="#projects">Signup</a></li>
+          <li><a href="#projects">Logout</a></li>
+          <li><a href="#projects">Payment Setting</a></li>
+          <li><a href="#about-dev">Login</a></li>
+        </div>
+        
             <div class="login-signup-btn">
                 <button id="signup-btn">Sign up</button>
                 <button id="login-btn">Log in</button>
@@ -235,7 +254,7 @@
                 <div class="logo">
                     <h2>sellerlist</h2>
                 </div>
-                <legend>Your number one site for selling and buying <br> clothes, cosmetics and home goods.</legend>
+                <legend>Your number one site for selling and buying  clothes, cosmetics and home goods.</legend>
                 <br>
                 <br>
                 <br>
@@ -290,5 +309,16 @@
             
         
     </div>
+        <script>
+      var navLinks = document.getElementsByClassName("nav_links");
+      var closeBtn = document.getElementById("x-btn");
+      var openBtn = document.getElementById("opn-btn");
+      openBtn.addEventListener("click", () => {
+        navLinks[0].style.right = "0px";
+      });
+      closeBtn.addEventListener("click", () => {
+        navLinks[0].style.right = "-200px";
+      });
+    </script>
 </body>
 </html>

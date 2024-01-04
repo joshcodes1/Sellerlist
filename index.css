@@ -3,6 +3,21 @@
   padding: 0;
   box-sizing: border-box;
 }
+a .fa-chevron-right {
+  display: none;
+}
+a .fa-chevron-left {
+  display: none;
+}
+#opn-btn {
+  display: none;
+}
+#x-btn {
+  display: none;
+}
+.nav_links{
+  display: none;
+}
 legend {
   font-weight: 500;
 }
@@ -278,4 +293,140 @@ hr {
 .fa-twitter{
   font-size: 30px;
   color: rgb(13, 101, 128);
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-links{
+    display: none;
+  }
+  .product {
+  padding: 10px;
+  float: left;
+  width: 49%;
+  margin-left: 0.1%;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+#signup-btn {
+  display: none;
+}
+#login-btn {
+  display: none;
+}
+.product img {
+  height: 35vh;
+  width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.intro-banner {
+  height: 35vh;
+  margin: 10px;
+  padding:0 10px;
+  text-align: center;
+  border-radius: 10px;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/marcus-loke-xXJ6utyoSw0-unsplash.jpg");
+  background-position: center;
+}
+.banner-text {
+  align-items: center;
+  color: white;
+  font-family: "Righteous";
+  font-size: 15px;
+}
+.banner-links{
+  display: none;
+}
+.input input{
+  width: 100%;
+  padding: 20px;
+}
+.login-signup-btn{
+  display: none;
+}
+.nav-icons{
+  display: none;
+}
+hr{
+  display: none;
+}
+.footer{
+  display: block;
+  text-align: center;
+}
+
+.links {
+  padding: 10px;
+  float: left;
+  width: 44.8%;
+  height: 180px;
+  margin-left: 5.1%;
+  margin-bottom: 15px;
+}
+.first-footer legend{
+  text-align: center;
+}
+.third-footer{
+  position: absolute;
+  bottom: 20px;
+  right: 40px;
+}
+.email-input input{
+  width: 100%;
+}
+a .fa-chevron-right {
+  display: block;
+}
+a .fa-chevron-left {
+  display: block;
+}
+#opn-btn {
+  display: block;
+  border: none;
+  background: transparent;
+}
+.nav_links {
+    display: flex;
+    width: 200px;
+    position: fixed;
+    right: -200px;
+    top: 0;
+    height: max-content;
+    transition: ease-in-out 0.5s;
+    overflow: auto;
+    z-index: 2;
+    background: black;
+    text-align: left;
+    flex-direction: column;
+  }
+  .nav_links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .nav_links li{
+  padding: 25px 0;
+
+  }
+.nav_links .fa-chevron-right {
+    display: block;
+    position: absolute;
+    top: 10px;
+    color: #fff;
+    font-size: 40px;
+    right: 10px;
+    font-size: 35px;
+  }
+#x-btn {
+  display: block;
+  border: none;
+  background: transparent;
+}
+.fa-arrow-circle-right{
+  display: none;
+}
+.fa-search{
+  display: none;
+}
 }
